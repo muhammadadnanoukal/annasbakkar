@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+
+    <template id="test_button_inh123"  inherit_id="survey.survey_fill_form_in_progress">
+
+        <xpath expr="//t[3]/div[@class='row'][1]/div[@class='col-12 text-center mt16'][1]/span[@class='fw-bold text-muted ms-2 d-none d-md-inline'][1]" position="after">
+            <span><a class="btn btn-primary" href="https://selanuss.org/survey" style="color : #fff">
+                continue later
+            </a></span>
+        </xpath>
+
+           <xpath expr="//div[@class='col-12 text-center mt16'][1]/span[@id='enter-tooltip'][1]" position="after">
+            <span><a class="btn btn-primary" href="https://selanuss.org/survey" style="color : #fff">
+                continue later
+            </a></span>
+        </xpath>
+
+
+              <xpath expr="//div[@class='text-center mt16 mb256'][1]/span[@class='fw-bold text-muted ms-2 d-none d-md-inline'][1]" position="after">
+            <span><a class="btn btn-primary" href="https://selanuss.org/survey" style="color : #fff">
+                continue later
+            </a></span>
+        </xpath>
+
+
+
+    </template>
+
+</odoo>
